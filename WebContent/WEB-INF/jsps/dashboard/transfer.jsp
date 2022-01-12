@@ -25,6 +25,47 @@
 			</div>
 			<div class="col-lg-1"></div>
 		</div>
+		
+		<div class="row">
+			<div class="col-lg-1"></div>
+			<div class="col-lg-10">
+			 
+			 
+			 <div class="card border-primary mb-3">
+  <div class="card-header">Transfer</div>
+  <div style="font-size:medium;  color: red" > <%=request.getAttribute("msg") %></div>
+  <sf:form method="get" action="${pageContext.request.contextPath }/process-transfer" modelAttribute="transfer"> 
+  <div class="card-body">
+    <h5 class="card-title">Enter Beneficiary Account Number to transfer Money</h5>
+    <p class="card-text">
+    You can transfer to the account that belongs only to our bank</p>
+    
+    <div class="form-group">
+   <sf:input class="form-control form-control-lg" type="text" placeholder="account number" id="inputLarge" 
+   path="toAccountNumber" />
+</div>
+
+	<hr />
+	
+	 <h5 class="card-title">Enter Amount to Transfer</h5>
+    <p class="card-text">
+    Maximum limit for transfer is 20000</p>
+    
+    <div class="form-group">
+   <sf:input class="form-control form-control-lg" type="text" placeholder="amount" id="inputLarge" 
+   path="amount" />
+</div>
+	
+	<br /><br />
+	<input type="submit" class="btn btn-primary btn-lg" value="Initiate Transfer" />
+	
+  </div>
+  
+  </sf:form>
+</div>
+			</div>
+			<div class="col-lg-1"></div>
+		</div>
 	</div>
 </body>
 </html>
