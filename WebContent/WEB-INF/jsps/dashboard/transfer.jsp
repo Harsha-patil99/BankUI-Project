@@ -57,7 +57,7 @@
 </div>
 	
 	<br /><br />
-	<input type="submit" class="btn btn-primary btn-lg" value="Initiate Transfer" />
+	<input type="submit" class="btn btn-info btn-lg" value="Initiate Transfer" />
 	
   </div>
   

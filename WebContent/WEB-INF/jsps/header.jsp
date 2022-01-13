@@ -12,9 +12,9 @@
 	crossorigin="anonymous">
 </head>
 <body>
-<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+<nav class="navbar navbar-expand-lg navbar-dark bg-info">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#"><span style="color: white;"> AZY-Bank</span></a>
+    <a class="navbar-brand" href="#"><span style="color: white;"> INDIA-BANK</span></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -27,13 +27,19 @@
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Deposit</a>
+          <a class="nav-link active" href="#">Deposit
+          <span class="visually-hidden">(current)</span>
+          </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Transfer</a>
+          <a class="nav-link active" href="#">Transfer
+          <span class="visually-hidden">(current)</span>
+          </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Statement</a>
+          <a class="nav-link active" href="#">Statement
+          <span class="visually-hidden">(current)</span>
+          </a>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Settings</a>

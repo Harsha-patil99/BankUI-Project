@@ -57,9 +57,9 @@
 </div>
 	
 	<br /><br />
-	<input type="submit" class="btn btn-primary btn-lg" value="Generate Statement" />
+	<input type="submit" class="btn btn-info btn-lg" value="Generate Statement" />
 	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-	<input type="reset" class="btn btn-primary btn-lg" value="reset" />
+	<input type="reset" class="btn btn-info btn-lg" value="reset" />
   </div>
   
   </form>

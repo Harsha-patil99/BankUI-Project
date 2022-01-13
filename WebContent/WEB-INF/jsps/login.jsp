@@ -30,7 +30,7 @@
 							placeholder="Password" path="password" /> <label for="floatingPassword" >Password</label>
 					</div>
 					<br />
-					<button type="submit" class="btn btn-primary">LOGIN</button>
+					<button type="submit" class="btn btn-info">LOGIN</button>
 				</div>
 				</sf:form>
 			</div>
